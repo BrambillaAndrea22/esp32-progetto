@@ -1,0 +1,10 @@
+# PlatformIO
+.pio/
+.vscode/
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Dati sensibili (password Wi-Fi, chiavi)
+secrets.h
