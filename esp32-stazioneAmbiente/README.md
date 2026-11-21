@@ -50,7 +50,6 @@ Servono Visual Studio Code e l'estensione PlatformIO IDE.
 2. Aspetta che PlatformIO scarichi gli strumenti e le librerie (la prima volta può richiedere qualche minuto).
 3. Collega l'ESP32 al PC con un cavo USB per dati. Su Windows può servire il driver CP210x di Silicon Labs.
 4. Premi Build per compilare e Upload per caricare il programma. Se resta bloccato su "Connecting...", tieni premuto il pulsante BOOT sulla scheda.
-5. Apri il monitor seriale a 115200 baud per vedere i messaggi.
 
 Librerie usate:
 - adafruit/DHT sensor library
@@ -60,5 +59,5 @@ Librerie usate:
 LIMITI DEL DHT11
 
 - Temperatura da 0 a 50 gradi con errore di circa 2 gradi.
-- Umidità da 20% a 80% con errore di circa 5%.
+- Umidità da circa 20% a circa 80% con errore di circa 5%.
 - Va letto al massimo una volta al secondo.
